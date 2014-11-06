@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 665px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logos {
+    background: yellow;
+    height: 64px;
+    font-size: 0;
+    margin: 10px 0 10px 0;
+}
+#video {
+    height: 315px;
+    background: purple;
+}
+#languages {
+    display:inline;
+    margin: 10px 10px 0 0;
+    width: 115px;
+    background: gold;
+    text-align: right;
+}
+#header {
+    background: red;
+    margin: 0;
+    padding: 0;
+    height: 92px;
+}
+#footer {
+    height: 20px;
+    background: green;
+}
+h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+div {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+#name {
+    float: right;
+}
+.language {
+    color: red;
+    cursor: pointer;
+}
+object {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#head {
+    background: green;
+    width: 550px;
+    float: left;
+}
