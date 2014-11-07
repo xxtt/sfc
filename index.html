@@ -7,6 +7,7 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="images/favicon.ico">
+    <script src="js/language.js"></script>
 
 </head>
 
@@ -14,12 +15,14 @@
     <div id="header">
         <div id="head">
             <img src="images/touch.png" alt="logo">
-            <h2>taste a masterpieces</h2>
+            <span>LOGO TEXT</span>
             <img src="images/sfc.png" width="92px" alt="sfc">
         </div>
         <div id="languages">
             <span id="ru" onclick="changeRu()" class="language">рус</span>
+            <br>
             <span id="ua" onclick="changeUa()" class="language">укр</span>
+            <br>
             <span id="us" onclick="changeUs()" class="language">eng</span>
         </div>
     </div>
@@ -35,7 +38,31 @@
         <img src="images/ps.png" alt="ps">
     </div>
 
-    <div id="content"></div>
+    <div id="content">
+        <div class="block">
+            <h3 id="h1"></h3>
+            <div class="image">
+                <img src="images/content/news.jpg" alt="" width="205px">
+            </div>
+            <p id="text1"></p>
+        </div>
+
+        <div class="block">
+            <h3 id="h2"></h3>
+            <div class="image">
+                <img src="images/content/film.jpg" alt="movie" width="205px">
+            </div>
+            <p id="text2"></p>
+        </div>
+
+        <div class="block">
+            <h3 id="h3"></h3>
+            <div class="image">
+                <img src="images/content/actor.jpg" alt="movie" width="205px">
+            </div>
+            <p id="text3"></p>
+        </div>
+    </div>
 
     <div id="footer">
         <span>+38(063)890-88-44</span>
