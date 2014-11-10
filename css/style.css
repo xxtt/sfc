@@ -8,8 +8,7 @@ body {
 }
 #logos {
     height: 64px;
-    font-size: 0;
-    margin: 10px 2px 10px 2px;
+    margin: 6px 2px 6px 2px;
 }
 #video {
     height: 315px;
@@ -20,10 +19,11 @@ body {
     width: 58px;
     height: 92px;
     text-align: center;
-        font-weight: bold;
+    font-weight: bold;
 }
 #footer {
-    margin-top: 5px;
+    margin-top: 4px;
+    margin-bottom: 4px;
     height: 28px;
 }
 h2 {
@@ -36,6 +36,7 @@ div {
     padding: 0;
 }
 #name {
+    margin-top: 3px;
     float: right;
 }
 .language {
@@ -55,24 +56,17 @@ iframe {
     height: 92px;
 }
 .block {
-    display: inline-block;
+    float: left;
     font-size: 14px;
     margin: 0;
     padding: 0;
     width: 248px;
-    height: 450px;
+    height: 440px;
     border: 1px solid;
     overflow: hidden;
     cursor: pointer;
 }
-p {
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    margin: 10px;
-  }
 .image {
-    font-size: 0;
     width: 205px;
     height: 296px;
     display: block;
@@ -86,10 +80,9 @@ h3 {
     margin: 0;
     margin-left: 10px;
 }
-#content {
-    font-size: 0;
-}
 html {
+    margin: 0;
+    padding: 0;
     min-width: 750px;
     background: grey;
 }
@@ -137,33 +130,33 @@ img {
 h3,
 p,
 span {
+    margin: 0;
+    padding: 0;
     color: white;
 }
 #header {
     margin-top: 10px;
 }
 #social {
-    font-size: 0;
-    display: inline;
+    display: inline-block;
     vertical-align: middle;
     margin-left: 5px;
 }
-
-
-
-
 .data {
-    height: 92px;
-    margin: 10px 10px 5px 10px;
+    height: 82px;
+    margin: 10px 10px 0px 10px;
     text-align: justify;
     overflow: hidden;
     color: white;
-
 }
-
 #more {
     margin-left: 10px;
     font-weight: bold;
 }
-
-
+.left {
+    float: left;
+}
+.more {
+    margin-left: 10px;
+    margin-top: 5px;
+}
