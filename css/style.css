@@ -27,9 +27,9 @@ body {
     height: 28px;
 }
 h2 {
-    display: inline-block;
     margin: 0;
     padding: 0;
+    margin-bottom: 5px;
 }
 div {
     margin: 0;
@@ -64,7 +64,6 @@ iframe {
     height: 440px;
     border: 1px solid;
     overflow: hidden;
-    cursor: pointer;
 }
 .image {
     width: 205px;
@@ -159,4 +158,24 @@ span {
 .more {
     margin-left: 10px;
     margin-top: 5px;
+}
+.mtext {
+    float: left;
+    margin-left: 20px;
+    width: 500px;
+    height: 780px;
+    overflow: hidden;
+}
+.mimage {
+    float: left;
+}
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:link:active,
+a:visited:active {
+    color: white;
 }

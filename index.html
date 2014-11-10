@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>SAKHNO'S FAMILY COMPANY</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/modal.css" rel="stylesheet" type="text/css">
     <link href="css/normalize.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="images/favicon.ico">
 </head>
@@ -61,36 +62,81 @@
     <div id="content">
 
         <div class="block">
-            <h3 id="h1"></h3>
-            <div class="image">
-                <img src="images/content/birth.jpg" alt="" width="205px">
-            </div>
-            <div id="text1" class="data"></div>
-            <p id="more1" class="more"></p>
+            <a href="#modal1">
+                <h3 id="h1"></h3>
+                <div class="image">
+                    <img src="images/content/birth.jpg" alt="" width="205px">
+                </div>
+                <div id="text1" class="data"></div>
+                <p id="more1" class="more"></p>
+            </a>
         </div>
 
         <div class="block">
-            <h3 id="h2"></h3>
-            <div class="image">
-                <img src="images/content/news.jpg" alt="movie" width="205px">
-            </div>
-            <div id="text2" class="data"></div>
-            <p id="more2" class="more"></p>
+            <a href="#modal2">
+                <h3 id="h2"></h3>
+                <div class="image">
+                    <img src="images/content/news.jpg" alt="movie" width="205px">
+                </div>
+                <div id="text2" class="data"></div>
+                <p id="more2" class="more"></p>
+            </a>
         </div>
 
         <div class="block">
-            <h3 id="h3"></h3>
-            <div class="image">
-                <img src="images/content/film.jpg" alt="movie" width="205px">
+            <a href="#modal3">
+                <h3 id="h3"></h3>
+                <div class="image">
+                    <img src="images/content/film.jpg" alt="movie" width="205px">
+                </div>
+                <div id="text3" class="data"></div>
+                <p id="more3" class="more"></p>
+            </a>
+        </div>
+    </div>
+
+    <div id="modal1" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="mimage">
+                <img src="images/content/birth.jpg" alt="movie" width="500px" height="780px">
             </div>
-            <div id="text3" class="data"></div>
-            <p id="more3" class="more"></p>
+            <div class="mtext">
+                <h2 id="mh1"></h3>
+                <div id="mtext1"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="modal2" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="mimage">
+                <img src="images/content/news.jpg" alt="movie" width="500px" height="780px">
+            </div>
+            <div class="mtext">
+                <h2 id="mh2"></h3>
+                <div id="mtext2"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="modal3" class="modalDialog">
+        <div>
+            <a href="#close" title="Close" class="close">X</a>
+            <div class="mimage">
+                <img src="images/content/film.jpg" alt="movie" width="500px" height="780px">
+            </div>
+            <div class="mtext">
+                <h2 id="mh3"></h3>
+                <div id="mtext3"></div>
+            </div>
         </div>
     </div>
 
     <div id="footer">
         <span>+38(063)890-88-44</span>
-        <a href="mailto:someone@example.com?Subject=Hello" target="_top">someone@example.com</a>
+        <a href="mailto:ts@sakhnosfamily.com?Subject=Hello" target="_top">ts@sakhnosfamily.com</a>
 
         <div id="social">
             <div class="left">
@@ -112,7 +158,6 @@
 
         <span id="name">2014 © Taras Sakhno</span>
     </div>
-
     <script src="js/language.js"></script>
 </body>
 
