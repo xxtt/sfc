@@ -13,23 +13,20 @@
  .modalDialog:target {
      opacity: 1;
      pointer-events: auto;
-     overflow: auto;
+     overflow-y: scroll;
  }
  .modalDialog > div {
-     width: 1020px;
+     width: 770px;
      position: absolute;
      left: 0;
      right: 0;
      padding: 20px;
      margin: 20px auto 20px auto;
      background: #fff;
-     background: -moz-linear-gradient(#fff, #999);
-     background: -webkit-linear-gradient(#fff, #999);
-     background: -o-linear-gradient(#fff, #999);
      text-align: justify;
  }
  .close {
-     background: #606061;
+     background: grey;
      color: #FFFFFF;
      line-height: 25px;
      position: absolute;
@@ -47,6 +44,6 @@
      box-shadow: 1px 1px 3px #000;
  }
  .close:hover {
-     background: #00d9ff;
+     background: white;
      cursor: pointer;
  }

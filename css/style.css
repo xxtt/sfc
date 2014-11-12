@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    width: 750px;
+    max-width: 750px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -13,6 +13,11 @@ body {
 #video {
     height: 315px;
     clear: both;
+    background: url(../images/back.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #languages {
     float: left;
@@ -22,6 +27,7 @@ body {
     font-weight: bold;
 }
 #footer {
+    clear: both;
     margin-top: 4px;
     margin-bottom: 4px;
     height: 28px;
@@ -40,7 +46,6 @@ div {
     float: right;
 }
 .language {
-    color: red;
     cursor: pointer;
 }
 iframe {
@@ -73,17 +78,18 @@ iframe {
     margin-right: auto;
     overflow: hidden;
 }
-h3 {
+.block h3 {
     text-align: center;
     padding: 0;
     margin: 0;
     margin-left: 10px;
+    color: white;
 }
 html {
     margin: 0;
     padding: 0;
     min-width: 750px;
-    background: grey;
+    background: #c9478a;
 }
 .parent {
     width: 100%;
@@ -95,7 +101,7 @@ html {
     background: lime;
 }
 ul {
-    color: white;
+    color: black;
 }
 li {
     cursor: pointer;
@@ -118,9 +124,11 @@ li {
     top: 20px;
     font-size: 30px;
     font-weight: bold;
+    color: white;
 }
 #portal {
     position: relative;
+    color: white;
     top: 25px;
 }
 img {
@@ -131,14 +139,16 @@ p,
 span {
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
 }
 #header {
     margin-top: 10px;
+
 }
 #social {
     display: inline-block;
     vertical-align: middle;
+    margin-top: 2px;
     margin-left: 5px;
 }
 .data {
@@ -146,7 +156,7 @@ span {
     margin: 10px 10px 0px 10px;
     text-align: justify;
     overflow: hidden;
-    color: white;
+    color: black;
 }
 #more {
     margin-left: 10px;
@@ -158,24 +168,37 @@ span {
 .more {
     margin-left: 10px;
     margin-top: 5px;
+    color: white;
 }
 .mtext {
     float: left;
-    margin-left: 20px;
-    width: 500px;
-    height: 780px;
-    overflow: hidden;
+    width: 710px;
 }
 .mimage {
     float: left;
 }
 a:link,
 a:visited {
-    color: white;
+    color: #4d004d;
     text-decoration: none;
     cursor: pointer;
 }
 a:link:active,
 a:visited:active {
-    color: white;
+    color: #4d004d;
+}
+.mtext a:link,
+.mtext a:visited {
+    color: #4d004d;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.mtext a:link:active,
+.mtext a:visited:active {
+    color: #4d004d;
+}
+.mtext img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
